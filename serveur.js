@@ -1,9 +1,14 @@
-let http = require("http");
+// //save
+// let http = require("http");
 
-let server = http.createServer();
+// //createServer
+// let server = http.createServer();
 
-server.on("request", (request, reponse) => {
-  console.log("il ya eu une request");
-});
+// //server.on
+// server.on("request", (request, reponse) => {
+//   console.log("il ya eu une request");
+// });
 
-server.listen(8080);
+// // Server.listen
+// // manque le porte (8080);
+// server.listen();
