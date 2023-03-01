@@ -1,13 +1,13 @@
-// // second methode to deploy server
-// const http = require("node:http");
+//  second methode to deploy server
+const http = require("node:http");
 
-// const server = http.createServer((req, res) => {
-//   res.writeHead(200, { "content-type": "application/json" });
-//   res.end(
-//     JSON.stringify({
-//       data: "Hello World",
-//     })
-//   );
-// });
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { "content-type": "application/json" });
+  res.end(
+    JSON.stringify({
+      data: "Hello World",
+    })
+  );
+});
 
-// server.listen(8080);
+server.listen(8080);

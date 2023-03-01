@@ -1,10 +1,6 @@
 let http = require("http");
 let fs = require("fs");
 let url = require("url");
-const { resolve } = require("path");
-
-const EventEmitter = require("events");
-const { prototype } = require("events");
 
 // version App.Start with emitters
 let App = {
@@ -12,7 +8,6 @@ let App = {
     let emitter = new EventEmitter();
 
     let server = http
-
       .createServer((request, response) => {
         response.writeHead(200, {
           "Content-type": "text/html; charset=utf-8",
