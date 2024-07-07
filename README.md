@@ -1,6 +1,6 @@
 Nodejs
-For learning course..................
-DO Roadmap
-do clear
-- nodejs for learning course
-- to do read me 
+For learning course.
+
+- explain how to create a server
+- how to start ans stop
+- how to give a port number 
