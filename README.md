@@ -5,3 +5,11 @@ For learning course.
 - how to start ans stop
 - how to give a port number 
 - event emmiterrs
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
